@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap");
+
+* {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 0;
+}
+
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.main {
+  position: relative;
+}
+.nav {
+  background-image: radial-gradient(
+    rgba(149, 145, 145, 0.222),
+    rgba(43, 42, 42, 0.293)
+  );
+  width: 100vw;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.logo {
+  height: 35px;
+  width: 200px;
+  background-image: url(https://static-web.melodio.ai/static/png/logo-3x-bF8HqprK.png);
+  background-size: cover;
+  background-position: center;
+}
+.part0 {
+  margin-top: 100px;
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 10;
+  margin-bottom: 100px;
+}
+
+.part0 .heading {
+  font-size: 40px;
+  color: transparent;
+  background-image: linear-gradient(90deg, rgb(255, 0, 43), yellow);
+  font-family: "Sofadi One", system-ui;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: sticky;
+  top: 10px;
+  z-index: 10;
+  background-color: rgba(39, 48, 54, 0.8);
+}
+
+.part0 .paragraph {
+  width: 750px;
+  color: rgb(127, 123, 123);
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.part0 .song {
+  height: 500px;
+  background-image: radial-gradient(
+    rgba(0, 0, 0, 0.323),
+    rgba(255, 221, 0, 0.252)
+  );
+  width: 750px;
+  border-radius: 20px;
+  padding: 50px;
+  overflow-y: hidden;
+}
+.part0 .top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.song-text {
+  background-color: #273036;
+  width: 700px;
+  border-radius: 10px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.para-song {
+  padding: 20px;
+  height: 200px;
+  overflow-y: scroll;
+  color: rgb(127, 123, 123);
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.main .img {
+  width: 516px;
+  height: 400px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.part1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.content-1 {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.head {
+  font-size: 25px;
+  color: #fff;
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.para {
+  width: 700px;
+  color: rgb(127, 123, 123);
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.btn {
+  box-shadow: 1px 1px 20px yellow;
+  border-radius: 8px;
+  margin-bottom: 100px;
+}
+
+button {
+  width: 250px;
+  height: 50px;
+  background-color: #273036;
+  border-radius: 8px;
+  font-size: 20px;
+  border: none;
+  color: transparent;
+  background-image: linear-gradient(90deg, rgb(255, 0, 43), yellow);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.img1 {
+  background-image: url(https://static-web.melodio.ai/static/png/image-1-1x-CmZhO6ag.png);
+}
+
+.img2 {
+  background-image: url(https://static-web.melodio.ai/static/png/image-2-1x-CZo-mUgw.png);
+}
+
+.img3 {
+  background-image: url(https://static-web.melodio.ai/static/png/image-2-1x-CZo-mUgw.png);
+}
+
+.img4 {
+  background-image: url(https://static-web.melodio.ai/static/png/image-3-1x-D_RZ6F57.png);
+}
+
+.img5 {
+  background-image: url(https://static-web.melodio.ai/static/png/image-5-2x-BQFhe29n.png);
+}
+
+.foot {
+  background-color: #273036;
+  width: 100vw;
+  height: 340px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  color: #919598;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact h3 {
+  font-family: "Sofadi One", system-ui;
+  color: white;
+  font-size: 40px;
+}
+.images {
+  display: flex;
+  gap: 10px;
+}
+.images img {
+  width: 30px;
+  height: 30px;
+}
+.service {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+@media (max-width: 885px) {
+  .part0 .song {
+    width: 400px;
+  }
+}
+
+@media (max-width: 755px) {
+  .part0 .heading {
+    font-size: 30px;
+  }
+  .part0 .paragraph {
+    font-size: 15px;
+    width: 550px;
+  }
+  .part1 .img {
+    width: 400px;
+    height: 300px;
+  }
+  .part1 .content-1 {
+    width: 400px;
+  }
+  .para {
+    width: 400px;
+  }
+}
+@media (max-width: 570px) {
+  .part0 .heading {
+    font-size: 25px;
+  }
+  .part0 .paragraph {
+    font-size: 15px;
+    width: 400px;
+  }
+  .part0 .song {
+    width: 320px;
+  }
+}
+@media (max-width: 440px){
+    .part0 .heading {
+        font-size: 18px;
+      }
+      .part0 .paragraph {
+        font-size: 13px;
+        width: 320px;
+        padding-top: 10px;
+        margin-left: 50px;
+      }
+      .part0 .song {
+        width: 200px;
+      }
+      .part1 .img {
+        width: 300px;
+        height: 200px;
+      }
+      .part1 .content-1 {
+        width: 300px;
+        font-size: 20px;
+      }
+      .para {
+        width: 250px;
+      }
+      .part1 .head{
+        font-size: 15px;
+        margin-left: 15px;
+      }
+      .service{
+        flex-direction: column;
+      }
+      .button button{
+        padding-right: 20px;
+      }
+
+} 
